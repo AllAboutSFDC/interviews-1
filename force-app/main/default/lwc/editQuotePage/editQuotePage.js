@@ -4,7 +4,7 @@
  */
 
 import { LightningElement, api } from "lwc";
-import lightningModalLWC from 'c/quoteModalForm';
+import lightningModalLWC from 'c/adjustQuotePrice';
 import manageQuoteData from "@salesforce/apex/QuoteHandler.manageQuoteData";
 import AdjustQuotetitle from '@salesforce/label/c.AdjustQuotetitle';
 
@@ -42,7 +42,7 @@ export default class EditQuotePage extends LightningElement {
        // console is added to avoid the eslint code scan issue
       console.log(error);
     });
-    
+
   }
 }
  

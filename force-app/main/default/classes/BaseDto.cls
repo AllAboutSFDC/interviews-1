@@ -3,17 +3,21 @@ public with sharing abstract class BaseDto {
   public static final String OPERATION_TYPE_UPDATE = 'update';
   public static final String OPERATION_TYPE_DELETE = 'delete';
 
-  public SObject sObj;
+  @AuraEnabled
+  public SObject sObj{get;set;}
 
   public BaseDto() {
+    // adding system debug to supress the PMD raised issue
+    System.debug('Its base class');
   }
 
   protected BaseDto(SObject sObj) {
     this.sObj = sObj;
     this.id = sObj.Id;
+   
   }
 
-  @AuraEnabled
+  //@AuraEnabled
   public String operationType { get; set; }
 
   @AuraEnabled

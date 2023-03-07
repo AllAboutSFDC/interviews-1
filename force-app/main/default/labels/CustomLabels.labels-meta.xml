@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>AdjustQuotetitle</fullName>
+        <categories>Quote</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>AdjustQuotetitle</shortDescription>
+        <value>Adjust Quote Price</value>
+    </labels>
+    <labels>
+        <fullName>QuoteErrorMsg</fullName>
+        <categories>Quote</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>QuoteErrorMsg</shortDescription>
+        <value>Error while saving quote details</value>
+    </labels>
+    <labels>
+        <fullName>QuoteSaveMsg</fullName>
+        <categories>Quote</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>QuoteSaveMsg</shortDescription>
+        <value>Saved Quote Details</value>
+    </labels>
+</CustomLabels>
